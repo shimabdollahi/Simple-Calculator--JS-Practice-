@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/normalize.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="left-flex">
+        <div id="result"></div>
+    </div>
+    <div class="buttons">
+        <div class="button"><button class="btn" onclick="getDigit('1')">1</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('2')">2</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('3')">3</button></div>
+        <div class="button"><button class="btn" onclick="setOp('*')">*</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('4')">4</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('5')">5</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('6')">6</button></div>
+        <div class="button"><button class="btn" onclick="setOp('/')">/</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('7')">7</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('8')">8</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('9')">9</button></div>
+        <div class="button"><button class="btn" onclick="setOp('-')">-</button></div>
+        <div class="button"><button class="btn" onclick="clean()">C</button></div>
+        <div class="button"><button class="btn" onclick="getDigit('0')">0</button></div>
+        <div class="button"><button class="btn" onclick="calculate()">=</button></div>
+        <div class="button"><button class="btn" onclick="setOp('+')">+</button></div>
+    </div>
+    <div class="right-flex">
+        <div class="history">
+            <ul id="history"></ul>
+        </div>
+    </div>
+</body>
+</html>
